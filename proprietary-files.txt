@@ -654,7 +654,7 @@ etc/firmware/tzwidevine.b03
 etc/firmware/tzwidevine.mdt
 
 # Sensors
-etc/sensors/hals.conf
+etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 bin/sensors.qcom
 vendor/lib/libdataitems.so
