@@ -28,12 +28,12 @@ TARGET_OTA_ASSERT_DEVICE := E6533,E6553,ivy,ivy_dsds
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_ivy_defconfig
 
-# CM hardware
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_ivy
+
+# Lineage hardware
+BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
