@@ -17,6 +17,8 @@
 
 #include <stdlib.h>
 
+#include <android-base/logging.h>
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,8 +30,10 @@
 
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
 #include "util.h"
+
+using android::init::import_kernel_cmdline;
+using android::init::property_set;
 
 void property_override(char const prop[], char const value[])
 {
