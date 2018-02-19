@@ -19,4 +19,4 @@ Rear Camera  | 20.7 MP, LED flash
 Front Camera | 5.1 MP
 Release Date | October 2015
 
-![Sony Xperia Z3+](http://cdn2.gsmarena.com/vv/pics/sony/sony-xperia-z4-1.jpg "Sony Xperia Z3+")
+![Sony Xperia Z3+](https://raw.githubusercontent.com/LineageOS/lineage_wiki/master/images/devices/ivy.png "Sony Xperia Z3+")
